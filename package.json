@@ -1,0 +1,46 @@
+{
+  "name": "npmq",
+  "version": "0.0.1",
+  "description": "Streamlined package lifecycle management for npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "npmq": "bin/npmq.js"
+  },
+  "prefersGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "bmcclure/node-npmq"
+  },
+  "keywords": [
+    "npm",
+    "npmq",
+    "publish",
+    "github"
+  ],
+  "author": "Ben McClure <ben.mcclure@gmail.com> (http://benmcclure.com)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/bmcclure/node-npmq/issues"
+  },
+  "homepage": "https://github.com/bmcclure/node-npmq#readme",
+  "dependencies": {
+    "boxen": "^1.1.0",
+    "chalk": "^1.1.3",
+    "conf": "^1.1.2",
+    "git-config": "^0.0.7",
+    "github": "^9.2.0",
+    "inquirer": "^3.1.1",
+    "listr": "^0.12.0",
+    "ora": "^1.3.0",
+    "simple-git": "^1.73.0",
+    "update-notifier": "^2.2.0",
+    "yargonaut": "^1.1.2",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1"
+  }
+}
